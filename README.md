@@ -3,7 +3,7 @@
 ## 🌐 Project Overview
 This project simulates a secure connection between two international corporate branches (**London** and **New York**) through a service provider "Internet" router. The architecture implements a layered security approach using Cisco ASA 5506-X firewalls and ISR 4331 routers.
 
-![Network Topology](./Network_Topology_Final.jpg)
+![Network Topology](./Network_Topology_Final.png)
 
 ## 🛠️ Skills Demonstrated
 * **Layer 3 Routing:** Configuration of static routes on edge and core routers.
@@ -33,11 +33,11 @@ Building this lab required resolving several real-world networking challenges:
 *Manual interface activation showing the resulting Syslog Level 5 (Notice) notifications.*
 
 ### End-Device Configuration
-![PC IP Configuration](./PC_IP_Configuration.jpg)
+![PC IP Configuration](./PC_IP_Configuration.png)
 *Configuration of the London Branch PC with appropriate Gateway and Subnet Mask.*
 
 ### Firewall Security Logic
-![Firewall Security Setup](./Screenshot%202026-02-06%20014924.jpg)
+![Firewall Security Setup](./Screenshot%202026-02-06%20014924.png)
 *Applying security levels and names to interfaces to define the trusted and untrusted zones.*
 
 ### Core Routing Knowledge
